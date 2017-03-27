@@ -73,3 +73,12 @@ end
 
 
 #### Write your domain model here:
+
+### Customer
+id | name
+### Owner
+id | name
+### Restaurant
+id | name | owner_id
+### Review
+id | content | customer_id | restaurant_id
